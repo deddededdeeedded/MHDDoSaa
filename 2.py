@@ -196,6 +196,7 @@ def build_headers(host: str, path: str) -> List[tuple]:
         (b"priority", b"u=0, i"),
         (b"sec-ch-prefers-color-scheme", b"light"),
         (b"viewport-width", b"1920"),
+        (b"cache-control", b"no-cache, no-store, must-revalidate"),
     ]
 
 async def main():
